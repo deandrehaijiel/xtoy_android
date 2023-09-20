@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">X to Y</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="landing_fragment_label">Landing Fragment</string>
+    <string name="account_fragment_label">Account Fragment</string>
+    <string name="landing">Start Chatting</string>
+    <string name="account">Login</string>
+
+    <string name="app_description">
+        A messaging app designed exclusively\nfor you (X) and your significant other (Y).
+    </string>
+
+    <string name="email">Enter Email</string>
+    <string name="password">Enter Password</string>
+    <string name="login1">Don\'t have an Account?</string>
+    <string name="login2"><u>Sign Up Now</u></string>
+
+    <string name="create">Create Account</string>
+    <string name="name">Enter Name</string>
+    <string name="repassword">Re-Enter Password</string>
+    <string name="create1">Already have an Account?</string>
+    <string name="create2"><u>Login Here</u></string>
+
+    <string name="create_account">Already Have an Account?</string>
+
+    <string name="search_fragment_label">Search Fragment</string>
+    <string name="online">online</string>
+    <string name="search">Search for Y</string>
+    <string name="searchY">Enter Y\'s Email</string>
+    <string name="y_info">%1$s\n%2$s</string>
+    <string name="pair">Pair with Y</string>
+
+    <string name="chat_fragment_label">Chat Fragment</string>
+    <string name="message">Message</string>
+</resources>

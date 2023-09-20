@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/LandingFragment">
+
+    <fragment
+        android:id="@+id/LandingFragment"
+        android:name="com.deandrehaijiel.xtoy.fragment.LandingFragment"
+        android:label="@string/landing_fragment_label"
+        tools:layout="@layout/fragment_landing">
+
+        <action
+            android:id="@+id/action_LandingFragment_to_AccountFragment"
+            app:destination="@id/AccountFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_LandingFragment_to_ChatFragment"
+            app:destination="@id/ChatFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_LandingFragment_to_SearchFragment"
+            app:destination="@id/SearchFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/AccountFragment"
+        android:name="com.deandrehaijiel.xtoy.fragment.AccountFragment"
+        android:label="@string/account_fragment_label"
+        tools:layout="@layout/fragment_account">
+
+        <action
+            android:id="@+id/action_AccountFragment_to_SearchFragment"
+            app:destination="@id/SearchFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_AccountFragment_to_ChatFragment"
+            app:destination="@id/ChatFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/SearchFragment"
+        android:name="com.deandrehaijiel.xtoy.fragment.SearchFragment"
+        android:label="@string/search_fragment_label"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_SearchFragment_to_AccountFragment"
+            app:destination="@id/AccountFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_SearchFragment_to_ChatFragment"
+            app:destination="@id/ChatFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/ChatFragment"
+        android:name="com.deandrehaijiel.xtoy.fragment.ChatFragment"
+        android:label="@string/chat_fragment_label"
+        tools:layout="@layout/fragment_chat" >
+        <action
+            android:id="@+id/action_ChatFragment_to_AccountFragment"
+            app:destination="@id/AccountFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

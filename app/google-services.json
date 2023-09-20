@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "449146125590",
+    "project_id": "xtoy-f73a0",
+    "storage_bucket": "xtoy-f73a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:449146125590:android:14c1249a0f93f135ea6437",
+        "android_client_info": {
+          "package_name": "com.deandrehaijiel.xtoy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "449146125590-bavgbchd8voplfpijhi59la5cki0sap7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhhVKYXYDuC1NOuqtPOnxY6M-hfk0kZ_w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "449146125590-bavgbchd8voplfpijhi59la5cki0sap7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "449146125590-kcica3k2cv3dmrjg5gmmfc7t68drbn3e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "deandrehaijiel.xtoy"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

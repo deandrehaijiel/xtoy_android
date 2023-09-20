@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="login_margin_top_value">4dp</dimen>
+    <dimen name="account_margin_top_value">20dp</dimen>
+</resources>
