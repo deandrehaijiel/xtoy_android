@@ -19,7 +19,7 @@ class MessageAdapter : RecyclerView.Adapter<MessageAdapter.MessageViewHolder>() 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MessageViewHolder {
         val layoutResId =
-            if (viewType == VIEW_TYPE_SENT) R.layout.message_from else R.layout.message_to
+            if (viewType == VIEW_TYPE_SENT) R.layout.message_to else R.layout.message_from
         val itemView = LayoutInflater.from(parent.context).inflate(layoutResId, parent, false)
         return MessageViewHolder(itemView)
     }
